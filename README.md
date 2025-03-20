@@ -38,7 +38,7 @@ Get the test transaction id from .env file.
 (For now you can only see the Json-structured Data of a transaction)
 
 
-## Further Develop
+## Further Developing
 
 1. Scalability:
     We can use caching systems like Redis or Memcached to reduce the load on the database and speed up response times
