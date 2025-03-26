@@ -25,6 +25,7 @@ pub async fn get_transaction_by_id(id: &str) -> Result<Value, String> {
     let client = Client::new();
     println!("Fetching transaction with ID: {}", id);
 
+    // request body here
     let request_body = serde_json::json!({
         "jsonrpc": "2.0",
         "id": 1,
